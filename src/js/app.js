@@ -17,6 +17,6 @@ mobileBtn.addEventListener("click", function (e) {
 function removeOpen(elementClose) {
   elementClose.addEventListener("click", function () {
     headerNav.classList.remove("open");
-    elementClose.remove();
+    // elementClose.remove();
   });
 }
