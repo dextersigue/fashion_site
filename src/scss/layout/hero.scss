@@ -1,0 +1,67 @@
+.hero{
+    width: 100%;
+
+   &__container{
+    min-width: 30rem;
+    max-width: 30rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   }
+
+   &__leftSide{
+    
+    width: 50%; 
+   
+    h1{
+        font-size: 6rem;
+        color: var( --black);
+        font-family: var(--poppins);
+        font-weight: var(--poppins-black);
+        line-height: 7rem;
+
+        .span1{
+            display: block;
+            background-color: var(--white);
+        }
+
+        .span2{
+            display: block;
+            background-color: var(--primary-color);
+        }
+    }
+
+    p{
+        font-size: 2rem;
+        line-height: 3rem;
+
+    }
+
+   }
+
+   &__rightSide{
+     
+   }
+
+  
+
+   &__button{
+    display: flex;
+    gap: 2rem;
+   }
+
+   &__btn1{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+   }
+
+   &__btn2{
+    background-color: var(--black);
+    color: var(--white);
+   }
+
+
+
+}
