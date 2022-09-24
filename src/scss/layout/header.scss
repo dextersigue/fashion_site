@@ -1,0 +1,43 @@
+@use "../abstracts/mixins.scss" as m;
+
+.header {
+  &__content {
+    @include m.d-flex;
+    justify-content: space-between;
+  }
+
+  &__brand {
+    @include m.d-flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: nowrap;
+
+    .logo {
+      svg {
+        width: 2.5rem;
+      }
+    }
+
+    .brandname {
+      font-size: 4rem;
+      color: var(--black);
+      text-transform: uppercase;
+      font-weight: var(--poppins-black);
+    }
+  }
+
+  &__nav {
+    @include m.d-flex;
+    ul {
+      @include m.d-flex;
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      li {
+        a {
+          padding: 0.6em 1em;
+          color: var(--black);
+        }
+      }
+    }
+  }
+}
