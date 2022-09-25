@@ -22,7 +22,7 @@
 
   .mobile--menu {
     // transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition: all 2s ease;
+
     @media only screen and (max-width: 60rem) {
       background: var(--primary-color);
       top: -500rem;
@@ -35,6 +35,7 @@
       height: 100vh;
       padding: 0 2rem;
       overflow: hidden;
+      transition: all 2s ease;
 
       ul {
         font-size: 2.2rem;
@@ -51,7 +52,9 @@
 
   .open {
     top: 0;
-    transition: all 0.5s ease;
+    @media only screen and (max-width: 60rem) {
+      transition: all 0.5s ease;
+    }
   }
 
   #close {
