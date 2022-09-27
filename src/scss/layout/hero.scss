@@ -2,12 +2,12 @@
     width: 100%;
 
    &__container{
-    min-width: 30rem;
-    max-width: 30rem;
-    width: 80%;
+    // min-width: 30rem;
+    // max-width: 30rem;
+    // width: 80%;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    // margin: 0 auto;
    }
 
    &__leftSide{
@@ -29,6 +29,7 @@
         .span2{
             display: block;
             background-color: var(--primary-color);
+            width: 60%;
         }
     }
 
@@ -42,24 +43,22 @@
 
    &__rightSide{
      height: 60vh;
-     width: 30;
 
      img{
         width: 100%;
+        display: block;
      }
    }
-
-  
 
    &__button{
     display: flex;
     gap: 2rem;
    }
 
-   &__btn1{
+   &__design{
     background-color: var(--primary-color);
-    border: none;
     padding: 1rem;
+    width: 7rem;
    }
 
    &__btn2{
