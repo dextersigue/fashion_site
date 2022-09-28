@@ -1,5 +1,13 @@
 .hero{
     width: 100%;
+    
+
+    &--bg{
+      background-color: #F4F6F5;
+      padding: 2rem;
+      border-radius: 5%;
+    }
+
 
    &__container{
     // min-width: 30rem;
